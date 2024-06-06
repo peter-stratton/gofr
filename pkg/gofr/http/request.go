@@ -119,3 +119,7 @@ func (r *Request) bindMultipart(ptr any) error {
 
 	return nil
 }
+
+func (r *Request) GetHeader(key string) string {
+	return r.req.Header.Get(key)
+}
