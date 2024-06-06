@@ -1,4 +1,4 @@
-module gofr.dev
+module github.com/peter-stratton/gofr
 
 go 1.21
 
@@ -34,6 +34,7 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.24.0
 	go.opentelemetry.io/otel/trace v1.24.0
 	go.uber.org/mock v0.4.0
+	gofr.dev v1.8.1
 	golang.org/x/oauth2 v0.20.0
 	golang.org/x/term v0.20.0
 	golang.org/x/text v0.15.0
@@ -79,7 +80,6 @@ require (
 	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/redis/go-redis/extra/rediscmd/v9 v9.0.5 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
-	github.com/rogpeppe/go-internal v1.11.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/yuin/gopher-lua v1.1.1 // indirect
 	go.einride.tech/aip v0.67.1 // indirect
