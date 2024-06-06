@@ -11,7 +11,7 @@ import (
 	"github.com/segmentio/kafka-go"
 	"go.opentelemetry.io/otel"
 
-	"gofr.dev/pkg/gofr/datasource/pubsub"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource/pubsub"
 )
 
 var (

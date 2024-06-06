@@ -13,9 +13,9 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/container"
-	gofrHTTP "gofr.dev/pkg/gofr/http"
-	"gofr.dev/pkg/gofr/http/response"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	gofrHTTP "github.com/peter-stratton/gofr/pkg/gofr/http"
+	"github.com/peter-stratton/gofr/pkg/gofr/http/response"
 )
 
 func TestOpenAPIHandler(t *testing.T) {

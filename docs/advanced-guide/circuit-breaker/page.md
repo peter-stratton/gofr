@@ -16,8 +16,8 @@ package main
 import (
 	"time"
 
-	"gofr.dev/pkg/gofr"
-	"gofr.dev/pkg/gofr/service"
+	"github.com/peter-stratton/gofr/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr/service"
 )
 
 func main() {

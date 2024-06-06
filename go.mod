@@ -34,7 +34,6 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.24.0
 	go.opentelemetry.io/otel/trace v1.24.0
 	go.uber.org/mock v0.4.0
-	gofr.dev v1.8.1
 	golang.org/x/oauth2 v0.20.0
 	golang.org/x/term v0.20.0
 	golang.org/x/text v0.15.0

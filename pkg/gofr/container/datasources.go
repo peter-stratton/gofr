@@ -6,8 +6,8 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"gofr.dev/pkg/gofr/datasource"
-	gofrSQL "gofr.dev/pkg/gofr/datasource/sql"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
+	gofrSQL "github.com/peter-stratton/gofr/pkg/gofr/datasource/sql"
 )
 
 type DB interface {

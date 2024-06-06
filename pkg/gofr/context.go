@@ -6,7 +6,7 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/trace"
 
-	"gofr.dev/pkg/gofr/container"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
 )
 
 type Context struct {
@@ -64,6 +64,10 @@ func (c *Context) Bind(i interface{}) error {
 //	c.Context = nil
 //	// c.Logger = nil // For now, all loggers are same. So, no need to set nil.
 // }
+
+func (c *Context) GetHeader(string) string {
+	return ""
+}
 
 func newContext(w Responder, r Request, c *container.Container) *Context {
 	return &Context{

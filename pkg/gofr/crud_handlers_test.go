@@ -17,9 +17,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"gofr.dev/pkg/gofr/container"
-	gofrSql "gofr.dev/pkg/gofr/datasource/sql"
-	gofrHTTP "gofr.dev/pkg/gofr/http"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	gofrSql "github.com/peter-stratton/gofr/pkg/gofr/datasource/sql"
+	gofrHTTP "github.com/peter-stratton/gofr/pkg/gofr/http"
 )
 
 var (

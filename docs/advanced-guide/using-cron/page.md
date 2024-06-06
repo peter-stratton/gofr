@@ -42,7 +42,7 @@ package main
 import (
 	"time"
 	
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 func main() {

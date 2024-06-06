@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 
-	"gofr.dev/pkg/gofr/logging"
-	"gofr.dev/pkg/gofr/testutil"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/testutil"
 )
 
 type contextKey string

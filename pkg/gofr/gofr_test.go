@@ -15,12 +15,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/config"
-	"gofr.dev/pkg/gofr/container"
-	gofrHTTP "gofr.dev/pkg/gofr/http"
-	"gofr.dev/pkg/gofr/logging"
-	"gofr.dev/pkg/gofr/migration"
-	"gofr.dev/pkg/gofr/testutil"
+	"github.com/peter-stratton/gofr/pkg/gofr/config"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	gofrHTTP "github.com/peter-stratton/gofr/pkg/gofr/http"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/migration"
+	"github.com/peter-stratton/gofr/pkg/gofr/testutil"
 )
 
 const helloWorld = "Hello World!"

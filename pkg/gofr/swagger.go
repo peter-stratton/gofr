@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gofr.dev/pkg/gofr/http/response"
+	"github.com/peter-stratton/gofr/pkg/gofr/http/response"
 )
 
 //go:embed static/*

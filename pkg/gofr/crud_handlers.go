@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"gofr.dev/pkg/gofr/datasource/sql"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource/sql"
 )
 
 var (

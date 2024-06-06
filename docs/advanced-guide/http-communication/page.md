@@ -35,7 +35,7 @@ app.AddHTTPService(<service_name> , <service_address>)
 package main
 
 import (
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 func main() {

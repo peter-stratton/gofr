@@ -213,7 +213,7 @@ The context `ctx` provides user with the following methods:
 package main
 
 import (
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 func main() {
@@ -262,7 +262,7 @@ package main
 import (
 	"encoding/json"
 
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 func main() {

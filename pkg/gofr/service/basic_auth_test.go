@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"gofr.dev/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
 )
 
 func TestBasicAuthProvider_Get(t *testing.T) {

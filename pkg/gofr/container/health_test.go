@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/datasource"
-	"gofr.dev/pkg/gofr/datasource/sql"
-	"gofr.dev/pkg/gofr/logging"
-	"gofr.dev/pkg/gofr/service"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource/sql"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/service"
 )
 
 func TestContainer_Health(t *testing.T) {

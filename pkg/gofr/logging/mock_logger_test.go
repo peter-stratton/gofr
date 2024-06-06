@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/testutil"
+	"github.com/peter-stratton/gofr/pkg/gofr/testutil"
 )
 
 func Test_NewMockLogger(t *testing.T) {

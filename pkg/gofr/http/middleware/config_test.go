@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/config"
+	"github.com/peter-stratton/gofr/pkg/gofr/config"
 )
 
 func TestGetConfigs(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/logging"
-	"gofr.dev/pkg/gofr/testutil"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/testutil"
 )
 
 func Test_getIPAddress(t *testing.T) {
@@ -92,7 +92,7 @@ func Test_LoggingMiddlewareStringPanicHandling(t *testing.T) {
 		handler.ServeHTTP(rr, req)
 	})
 
-	assert.Contains(t, logs, "gofr.dev/pkg/gofr/http/middleware.testStringPanicHandler")
+	assert.Contains(t, logs, "github.com/peter-stratton/gofr/pkg/gofr/http/middleware.testStringPanicHandler")
 }
 
 // Test handler that uses the middleware.
@@ -111,7 +111,7 @@ func Test_LoggingMiddlewareErrorPanicHandling(t *testing.T) {
 		handler.ServeHTTP(rr, req)
 	})
 
-	assert.Contains(t, logs, "gofr.dev/pkg/gofr/http/middleware.testErrorPanicHandler")
+	assert.Contains(t, logs, "github.com/peter-stratton/gofr/pkg/gofr/http/middleware.testErrorPanicHandler")
 }
 
 // Test handler that uses the middleware.
@@ -130,7 +130,7 @@ func Test_LoggingMiddlewareUnknownPanicHandling(t *testing.T) {
 		handler.ServeHTTP(rr, req)
 	})
 
-	assert.Contains(t, logs, "gofr.dev/pkg/gofr/http/middleware.testUnknownPanicHandler")
+	assert.Contains(t, logs, "github.com/peter-stratton/gofr/pkg/gofr/http/middleware.testUnknownPanicHandler")
 }
 
 // Test handler that uses the middleware.

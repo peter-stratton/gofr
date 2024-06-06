@@ -5,7 +5,7 @@ import (
 	"mime/multipart"
 	"reflect"
 
-	"gofr.dev/pkg/gofr/file"
+	"github.com/peter-stratton/gofr/pkg/gofr/file"
 )
 
 type formData struct {

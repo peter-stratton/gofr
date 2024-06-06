@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"gofr.dev/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
 )
 
 func (r *Redis) HealthCheck() datasource.Health {

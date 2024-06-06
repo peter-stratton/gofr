@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/datasource"
-	"gofr.dev/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
 )
 
 func TestHealth_HealthCheck(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/gogo/protobuf/sortkeys"
 
-	"gofr.dev/pkg/gofr/container"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
 )
 
 type MigrateFunc func(d Datasource) error

@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/otel"
 
-	"gofr.dev/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
 )
 
 func oAuthHTTPServer(t *testing.T) *httptest.Server {

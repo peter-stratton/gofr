@@ -6,7 +6,7 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"go.uber.org/mock/gomock"
 
-	"gofr.dev/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
 )
 
 func NewSQLMocks(t *testing.T) (*DB, sqlmock.Sqlmock, *MockMetrics) {

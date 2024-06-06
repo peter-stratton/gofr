@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"gofr.dev/pkg/gofr/config"
-	"gofr.dev/pkg/gofr/datasource"
-	"gofr.dev/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/config"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
 )
 
 func TestRedis_HealthHandlerError(t *testing.T) {

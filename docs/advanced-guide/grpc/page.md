@@ -108,7 +108,7 @@ to register the service giving GoFr app and the Handler struct.
 package main
 
 import (
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 	"gofr.dev/examples/grpc-server/customer"
 )
 

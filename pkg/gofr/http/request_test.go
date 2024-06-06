@@ -13,7 +13,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/file"
+	"github.com/peter-stratton/gofr/pkg/gofr/file"
 )
 
 func TestParam(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"gofr.dev/pkg/gofr/config"
+	"github.com/peter-stratton/gofr/pkg/gofr/config"
 )
 
 func GetConfigs(c config.Config) map[string]string {

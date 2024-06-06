@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"gofr.dev/pkg/gofr/logging"
-	"gofr.dev/pkg/gofr/service"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/service"
 )
 
 const (

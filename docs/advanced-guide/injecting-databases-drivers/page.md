@@ -42,10 +42,10 @@ compromising the extensibility to use multiple databases.
 package main
 
 import (
-    "gofr.dev/pkg/gofr/datasource/mongo"
+    "github.com/peter-stratton/gofr/pkg/gofr/datasource/mongo"
     "go.mongodb.org/mongo-driver/bson"
 	
-    "gofr.dev/pkg/gofr"
+    "github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 type Person struct {

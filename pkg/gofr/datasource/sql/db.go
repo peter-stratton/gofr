@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"gofr.dev/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
 )
 
 // DB is a wrapper around sql.DB which provides some more features.

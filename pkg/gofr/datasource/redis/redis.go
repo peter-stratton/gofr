@@ -9,8 +9,8 @@ import (
 	otel "github.com/redis/go-redis/extra/redisotel/v9"
 	"github.com/redis/go-redis/v9"
 
-	"gofr.dev/pkg/gofr/config"
-	"gofr.dev/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/config"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
 )
 
 const (

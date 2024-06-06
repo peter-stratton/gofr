@@ -11,8 +11,8 @@ import (
 	_ "github.com/lib/pq" // used for concrete implementation of the database driver.
 	_ "modernc.org/sqlite"
 
-	"gofr.dev/pkg/gofr/config"
-	"gofr.dev/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/config"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
 )
 
 const (

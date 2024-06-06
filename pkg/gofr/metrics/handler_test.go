@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/logging"
-	"gofr.dev/pkg/gofr/metrics/exporters"
-	"gofr.dev/pkg/gofr/testutil"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/metrics/exporters"
+	"github.com/peter-stratton/gofr/pkg/gofr/testutil"
 )
 
 func Test_MetricsGetHandler_MetricsNotRegistered(t *testing.T) {

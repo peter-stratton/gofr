@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/logging"
-	"gofr.dev/pkg/gofr/service"
-	"gofr.dev/pkg/gofr/testutil"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/service"
+	"github.com/peter-stratton/gofr/pkg/gofr/testutil"
 )
 
 func TestDynamicLoggerSuccess(t *testing.T) {

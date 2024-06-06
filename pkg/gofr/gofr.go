@@ -21,14 +21,14 @@ import (
 
 	"google.golang.org/grpc"
 
-	"gofr.dev/pkg/gofr/config"
-	"gofr.dev/pkg/gofr/container"
-	gofrHTTP "gofr.dev/pkg/gofr/http"
-	"gofr.dev/pkg/gofr/http/middleware"
-	"gofr.dev/pkg/gofr/logging"
-	"gofr.dev/pkg/gofr/metrics"
-	"gofr.dev/pkg/gofr/migration"
-	"gofr.dev/pkg/gofr/service"
+	"github.com/peter-stratton/gofr/pkg/gofr/config"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	gofrHTTP "github.com/peter-stratton/gofr/pkg/gofr/http"
+	"github.com/peter-stratton/gofr/pkg/gofr/http/middleware"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/metrics"
+	"github.com/peter-stratton/gofr/pkg/gofr/migration"
+	"github.com/peter-stratton/gofr/pkg/gofr/service"
 )
 
 // App is the main application in the GoFr framework.

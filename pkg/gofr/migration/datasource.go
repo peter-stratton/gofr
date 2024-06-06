@@ -5,8 +5,8 @@ import (
 
 	goRedis "github.com/redis/go-redis/v9"
 
-	"gofr.dev/pkg/gofr/container"
-	gofrSql "gofr.dev/pkg/gofr/datasource/sql"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	gofrSql "github.com/peter-stratton/gofr/pkg/gofr/datasource/sql"
 )
 
 type Datasource struct {

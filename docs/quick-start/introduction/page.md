@@ -25,7 +25,7 @@ You can add this code to your main.go file.
 ```go
 package main
 
-import "gofr.dev/pkg/gofr"
+import "github.com/peter-stratton/gofr/pkg/gofr"
 
 func main() {
     // initialise gofr object

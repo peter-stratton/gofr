@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"gofr.dev/pkg/gofr/datasource"
-	"gofr.dev/pkg/gofr/datasource/pubsub"
-	"gofr.dev/pkg/gofr/logging"
-	"gofr.dev/pkg/gofr/testutil"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource/pubsub"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/testutil"
 )
 
 var errTest = errors.New("test error")

@@ -12,8 +12,8 @@ import (
 
 	"go.opentelemetry.io/otel"
 
-	"gofr.dev/pkg/gofr/container"
-	"gofr.dev/pkg/gofr/version"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	"github.com/peter-stratton/gofr/pkg/gofr/version"
 )
 
 const (
@@ -344,4 +344,8 @@ func (b noopRequest) HostName() string {
 
 func (b noopRequest) Bind(interface{}) error {
 	return nil
+}
+
+func (b noopRequest) GetHeader(string) string {
+	return ""
 }

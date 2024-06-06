@@ -51,7 +51,7 @@ import (
 
 	"github.com/redis/go-redis/v9"
 	
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 type Customer struct {

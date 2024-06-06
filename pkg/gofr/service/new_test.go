@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.uber.org/mock/gomock"
 
-	"gofr.dev/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
 )
 
 func TestNewHTTPService(t *testing.T) {

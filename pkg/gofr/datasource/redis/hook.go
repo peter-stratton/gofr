@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"gofr.dev/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
 
 	"github.com/redis/go-redis/v9"
 )

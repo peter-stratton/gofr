@@ -1,4 +1,4 @@
-module gofr.dev/pkg/gofr/datasource/mongo
+module github.com/peter-stratton/gofr/pkg/gofr/datasource/mongo
 
 go 1.22
 

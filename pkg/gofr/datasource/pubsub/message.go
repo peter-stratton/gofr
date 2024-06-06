@@ -109,3 +109,7 @@ func (m *Message) bindStruct(i any) error {
 func (m *Message) HostName() string {
 	return ""
 }
+
+func (m *Message) GetHeader(string) string {
+	return ""
+}

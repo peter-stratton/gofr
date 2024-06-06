@@ -5,7 +5,7 @@ package pubsub
 import (
 	"context"
 
-	"gofr.dev/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
 )
 
 type Publisher interface {

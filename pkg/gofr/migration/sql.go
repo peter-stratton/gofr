@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"time"
 
-	"gofr.dev/pkg/gofr/container"
-	gofrSql "gofr.dev/pkg/gofr/datasource/sql"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	gofrSql "github.com/peter-stratton/gofr/pkg/gofr/datasource/sql"
 )
 
 const (

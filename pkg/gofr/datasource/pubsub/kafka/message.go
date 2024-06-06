@@ -5,7 +5,7 @@ import (
 
 	"github.com/segmentio/kafka-go"
 
-	"gofr.dev/pkg/gofr/datasource/pubsub"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource/pubsub"
 )
 
 type kafkaMessage struct {

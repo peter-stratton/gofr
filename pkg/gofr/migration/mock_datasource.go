@@ -13,7 +13,7 @@ import (
 	reflect "reflect"
 
 	gomock "go.uber.org/mock/gomock"
-	container "gofr.dev/pkg/gofr/container"
+	container "github.com/peter-stratton/gofr/pkg/gofr/container"
 )
 
 // MockMigrator is a mock of Migrator interface.

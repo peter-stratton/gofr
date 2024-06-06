@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/term"
 
-	"gofr.dev/pkg/gofr/version"
+	"github.com/peter-stratton/gofr/pkg/gofr/version"
 )
 
 const fileMode = 0644

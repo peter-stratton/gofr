@@ -114,3 +114,7 @@ func (r *Request) Bind(i interface{}) error {
 
 	return nil
 }
+
+func (r *Request) GetHeader(string) string {
+	return ""
+}

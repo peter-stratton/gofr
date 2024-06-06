@@ -10,7 +10,7 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"go.uber.org/mock/gomock"
 
-	"gofr.dev/pkg/gofr/container"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
 )
 
 func TestNewMysql(t *testing.T) {

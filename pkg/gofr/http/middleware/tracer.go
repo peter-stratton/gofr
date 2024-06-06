@@ -8,7 +8,7 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 
-	"gofr.dev/pkg/gofr/version"
+	"github.com/peter-stratton/gofr/pkg/gofr/version"
 )
 
 // Tracer is a middleware that  starts a new OpenTelemetry trace span for each request.

@@ -8,7 +8,7 @@ import (
 
 	goRedis "github.com/redis/go-redis/v9"
 
-	"gofr.dev/pkg/gofr/container"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
 )
 
 type migration struct {

@@ -11,7 +11,7 @@ GoFr by default wraps a handler's return value and assigns it to the "data" fiel
 ```go
 package main
 
-import "gofr.dev/pkg/gofr"
+import "github.com/peter-stratton/gofr/pkg/gofr"
 
 type user struct {
   ID   int    `json:"id"`

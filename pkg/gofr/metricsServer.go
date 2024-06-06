@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"gofr.dev/pkg/gofr/container"
-	"gofr.dev/pkg/gofr/metrics"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	"github.com/peter-stratton/gofr/pkg/gofr/metrics"
 )
 
 type metricServer struct {

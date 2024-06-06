@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/config"
-	"gofr.dev/pkg/gofr/container"
-	gofrHTTP "gofr.dev/pkg/gofr/http"
-	"gofr.dev/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/config"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	gofrHTTP "github.com/peter-stratton/gofr/pkg/gofr/http"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
 )
 
 func Test_newContextSuccess(t *testing.T) {

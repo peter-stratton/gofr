@@ -62,7 +62,7 @@ package main
 
 import (
 	"gofr.dev/examples/using-crud-from-struct/migrations"
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 type user struct {

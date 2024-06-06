@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gofr.dev/pkg/gofr/config"
-	"gofr.dev/pkg/gofr/datasource/pubsub/mqtt"
-	gofrRedis "gofr.dev/pkg/gofr/datasource/redis"
-	gofrSql "gofr.dev/pkg/gofr/datasource/sql"
-	"gofr.dev/pkg/gofr/logging"
-	"gofr.dev/pkg/gofr/service"
+	"github.com/peter-stratton/gofr/pkg/gofr/config"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource/pubsub/mqtt"
+	gofrRedis "github.com/peter-stratton/gofr/pkg/gofr/datasource/redis"
+	gofrSql "github.com/peter-stratton/gofr/pkg/gofr/datasource/sql"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/service"
 )
 
 func Test_newContainerSuccessWithLogger(t *testing.T) {

@@ -33,7 +33,7 @@ User can use the `UseMiddleware` method on your GoFr application instance to reg
 import (
     "net/http"
 
-    "gofr.dev/pkg/gofr"
+    "github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 // Define your custom middleware function

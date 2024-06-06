@@ -1,6 +1,6 @@
 package datasource
 
-import "gofr.dev/pkg/gofr/config"
+import "github.com/peter-stratton/gofr/pkg/gofr/config"
 
 type Datasource interface {
 	Register(config config.Config)

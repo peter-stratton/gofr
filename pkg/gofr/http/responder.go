@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	resTypes "gofr.dev/pkg/gofr/http/response"
+	resTypes "github.com/peter-stratton/gofr/pkg/gofr/http/response"
 )
 
 // NewResponder creates a new Responder instance from the given http.ResponseWriter..

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/peter-stratton/gofr/pkg/gofr/testutil"
 	"github.com/stretchr/testify/assert"
-	"gofr.dev/pkg/gofr/testutil"
 )
 
 func TestPubSub_CreateTopic(t *testing.T) {

@@ -1,6 +1,6 @@
 package gofr
 
-import "gofr.dev/pkg/gofr/datasource"
+import "github.com/peter-stratton/gofr/pkg/gofr/datasource"
 
 func (a *App) AddMongo(db datasource.MongoProvider) {
 	db.UseLogger(a.Logger())

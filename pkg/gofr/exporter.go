@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
 	"go.opentelemetry.io/otel/attribute"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-	"gofr.dev/pkg/gofr/logging"
 )
 
 // errUnexpectedStatusCode is returned when an unexpected status code is received from the remote endpoint.

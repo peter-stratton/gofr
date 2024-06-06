@@ -4,9 +4,9 @@ import (
 	"os"
 	"regexp"
 
-	"gofr.dev/pkg/gofr/container"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
 
-	cmd2 "gofr.dev/pkg/gofr/cmd"
+	cmd2 "github.com/peter-stratton/gofr/pkg/gofr/cmd"
 )
 
 type cmd struct {

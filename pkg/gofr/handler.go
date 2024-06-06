@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"gofr.dev/pkg/gofr/container"
-	gofrHTTP "gofr.dev/pkg/gofr/http"
-	"gofr.dev/pkg/gofr/http/response"
-	"gofr.dev/pkg/gofr/static"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	gofrHTTP "github.com/peter-stratton/gofr/pkg/gofr/http"
+	"github.com/peter-stratton/gofr/pkg/gofr/http/response"
+	"github.com/peter-stratton/gofr/pkg/gofr/static"
 
 	"net/http"
 )

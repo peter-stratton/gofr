@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"gofr.dev/pkg/gofr/http/middleware"
+	"github.com/peter-stratton/gofr/pkg/gofr/http/middleware"
 
-	"gofr.dev/pkg/gofr/container"
-	gofrHTTP "gofr.dev/pkg/gofr/http"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	gofrHTTP "github.com/peter-stratton/gofr/pkg/gofr/http"
 )
 
 type httpServer struct {

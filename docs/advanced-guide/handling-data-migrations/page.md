@@ -21,7 +21,7 @@ Create the following file in `migrations` directory.
 ```go
 package migrations
 
-import "gofr.dev/pkg/gofr/migration"
+import "github.com/peter-stratton/gofr/pkg/gofr/migration"
 
 
 const createTable = `CREATE TABLE IF NOT EXISTS employee
@@ -58,7 +58,7 @@ For MySQL it is highly recommended to use `IF EXISTS` and `IF NOT EXIST` in DDL 
 ```go
 package migrations
 
-import "gofr.dev/pkg/gofr/migration"
+import "github.com/peter-stratton/gofr/pkg/gofr/migration"
 
 func All() map[int64]migration.Migrate {
 	return map[int64]migration.Migrate{
@@ -76,7 +76,7 @@ package main
 
 import (
 	"gofr.dev/examples/using-migrations/migrations"
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 func main() {

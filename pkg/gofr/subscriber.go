@@ -5,9 +5,9 @@ import (
 	"errors"
 	"runtime/debug"
 
-	"gofr.dev/pkg/gofr/container"
-	"gofr.dev/pkg/gofr/datasource/pubsub/kafka"
-	"gofr.dev/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/container"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource/pubsub/kafka"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
 )
 
 type SubscribeFunc func(c *Context) error

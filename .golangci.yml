@@ -43,8 +43,8 @@ linters-settings:
     settings:
       printf:
         funcs:
-          - (gofr.dev/pkg/gofr/Logger).Logf
-          - (gofr.dev/pkg/gofr/Logger).Errorf
+          - (github.com/peter-stratton/gofr/pkg/gofr/Logger).Logf
+          - (github.com/peter-stratton/gofr/pkg/gofr/Logger).Errorf
   lll:
     line-length: 140
   maligned:

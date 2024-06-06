@@ -24,7 +24,7 @@ Counter is a {% new-tab-link title="synchronous Instrument" href="https://opente
 package main
 
 import (
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 func main() {
@@ -54,7 +54,7 @@ Note: If the value is monotonically increasing, use Counter instead.
 package main
 
 import (
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 func main() {
@@ -84,7 +84,7 @@ report arbitrary values that are likely to be statistically meaningful. It is in
 package main
 
 import (
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 func main() {
@@ -120,7 +120,7 @@ Gauge is a {% new-tab-link title="synchronous Instrument" href="https://opentele
 package main
 
 import (
-	"gofr.dev/pkg/gofr"
+	"github.com/peter-stratton/gofr/pkg/gofr"
 )
 
 func main() {

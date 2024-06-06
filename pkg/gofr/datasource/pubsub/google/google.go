@@ -11,7 +11,7 @@ import (
 	gcPubSub "cloud.google.com/go/pubsub"
 	"go.opentelemetry.io/otel"
 
-	"gofr.dev/pkg/gofr/datasource/pubsub"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource/pubsub"
 )
 
 var (

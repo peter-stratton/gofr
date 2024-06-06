@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	resTypes "gofr.dev/pkg/gofr/http/response"
+	resTypes "github.com/peter-stratton/gofr/pkg/gofr/http/response"
 )
 
 func TestResponder_Respond(t *testing.T) {

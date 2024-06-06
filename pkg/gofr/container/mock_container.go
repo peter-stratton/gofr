@@ -6,9 +6,9 @@ import (
 
 	"go.uber.org/mock/gomock"
 
-	"gofr.dev/pkg/gofr/datasource"
-	"gofr.dev/pkg/gofr/datasource/pubsub"
-	"gofr.dev/pkg/gofr/logging"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource"
+	"github.com/peter-stratton/gofr/pkg/gofr/datasource/pubsub"
+	"github.com/peter-stratton/gofr/pkg/gofr/logging"
 )
 
 type Mocks struct {
